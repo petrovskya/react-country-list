@@ -5,7 +5,7 @@ import { transformCountries } from './mappers/transformCountries';
 
 export const App = () => {
   const transformedCountries = transformCountries(countries);
-  console.log(transformedCountries);
+  
   return (
     <div>
       <h1 className='p-4'>Country List</h1>
